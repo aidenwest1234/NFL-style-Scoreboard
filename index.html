@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <title>ScoreBoard</title>
+  </head>
+  <body>
+    <div>
+      <h1 class="title">Score <img src="img's/logo.jpg" width="50px"> Board</h1>
+      <div class="container">
+        <div class="player1">
+          <h2>TEAM A</h2>
+          <div >
+            <h1 id="player1-score">0</h1>
+          </div>
+          <div id="button-layout">
+            <button onclick="teamone1()">+1</button>
+            <button onclick="teamone2()">+2</button>
+            <button onclick="teamone3()">+3</button>
+          </div>
+        </div>
+        <div class="player2">
+          <h2>TEAM B</h2>
+          <div>
+            <h1 id="player2-score">0</h1>
+          </div>
+          <div id="button-layout">
+            <button onclick="teamtwo1()">+1</button>
+            <button onclick="teamtwo2()">+2</button>
+            <button onclick="teamtwo3()">+3</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
